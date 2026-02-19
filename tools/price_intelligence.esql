@@ -1,0 +1,13 @@
+FROM street_prices
+| WHERE product_name == ?product AND timestamp > NOW() - 7 DAYS
+| ENRICH official_prices_policy ON product_name WITH wholesale_price, retail_price
+| EVAL markup = (price - wholesale_price) / wholesale_price * 100
+| EVAL arbitrage_opportunity = CASE(
+    markup > 40, "CRITICAL",
+    markup > 25, "HIGH",
+    "NORMAL"
+  )
+| WHERE arbitrage_opportunity != "NORMAL"
+| STATS avg_markup = AVG(markup), total_overpay = SUM(price - wholesale_price) BY product_name, arbitrage_opportunity
+| SORT avg_markup DESC
+| LIMIT 10

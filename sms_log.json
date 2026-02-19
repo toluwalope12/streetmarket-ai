@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-02-19T05:35:35.653263",
+    "to": "+2347037928226",
+    "message": "\ud83c\udf89 Congratulations Mama Amina!\n\nYour STREETMARKET AI credit score has reached 0.75.\n\nYou now qualify for a microloan of:\n\u20a6250,000 (~$500 USD)\n\nReply YES to apply or visit your nearest cooperative office.\n\n- STREETMARKET AI",
+    "status": "SIMULATED",
+    "delivery": "would_be_sent_in_production"
+  },
+  {
+    "timestamp": "2026-02-19T05:35:35.656933",
+    "to": "+2347037928226",
+    "message": "\ud83d\udcca Price Alert for Mama Amina!\n\nYour tomatoes prices are 35% above wholesale.\n\nBy joining bulk buying, you could save:\n\u20a63,000/week (~$6 USD)\n\nReply HELP for cooperative contacts.\n\n- STREETMARKET AI",
+    "status": "SIMULATED",
+    "delivery": "would_be_sent_in_production"
+  }
+]

@@ -1,0 +1,5 @@
+elasticsearch
+faker
+pandas
+pillow
+numpy

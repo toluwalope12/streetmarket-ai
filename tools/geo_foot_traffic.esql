@@ -1,0 +1,11 @@
+FROM foot_traffic
+| WHERE timestamp > NOW() - 30 DAYS
+| STATS avg_traffic = AVG(traffic_count), peak_traffic = MAX(traffic_count) BY hour, day_of_week
+| SORT avg_traffic DESC
+| LIMIT 10
+| EVAL recommendation = CONCAT(
+    "Best time: Day ", TO_STRING(day_of_week), 
+    " at ", TO_STRING(hour), ":00 - ", 
+    TO_STRING(ROUND(avg_traffic, 0)), " avg visitors"
+  )
+| KEEP hour, day_of_week, avg_traffic, peak_traffic, recommendation

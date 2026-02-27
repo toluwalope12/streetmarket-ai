@@ -401,8 +401,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 ## 📞 Contact & Support
 
 - **🐛 GitHub Issues:** [Report bugs or request features](https://github.com/toluwalope12/streetmarket-ai/issues)
-- **🐦 Twitter/X:** [@elastic_devs](https://twitter.com/elastic_devs) (tag us!)
-- **🏆 Hackathon Submission:** [Devpost Link](#)
+- **🐦 Twitter/X:** [@TheFistBreaker](https://twitter.com/elastic_devs) (tag us!)
+- **🐦 Twitter/X Post Link:** (https://x.com/TheFistBreaker/status/2027325602764673281?s=20)
+- **🏆 Hackathon Submission:** [(https://devpost.com/software/streetmarket-ai)](#)
+- **▶️ Youtube Submision Link:** [(https://youtu.be/L0gkM4yVWAA)](#)
 
 ---
 
@@ -412,6 +414,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 - 📱 **Africa's Talking** for SMS infrastructure inspiration
 - 👥 **Informal Sector Vendors** across Africa who inspired this solution
 - ⚖️ **Hackathon Judges** for their time and consideration
+- 🏆 **Devpost** for providing the platform to host this incredible hackathon and showcase our project
 
 ---
 
@@ -424,3 +427,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **STREETMARKET AI: Empowering 200 million vendors, one agent at a time.** 🌍🏆
 
 **Built with ❤️ for the Elastic Agent Builder Hackathon 2026**
+

@@ -13,6 +13,8 @@
 
 ## 🌟 Executive Summary
 
+![StreetMarketAI Banner](docs/images/StreetMarket_AI.jpg)
+
 **STREETMARKET AI** is a multi-agent system that brings financial inclusion and real-time market intelligence to **200 million+ informal street vendors** across Africa. By transforming unstructured vendor messages (WhatsApp/SMS) into actionable insights using **Elasticsearch Agent Builder**, we enable vendors to build credit scores, detect price arbitrage, verify product authenticity, and access microloans.
 
 **Meet Mama Amina** 👩🏿‍🌾: A tomato vendor in Lagos earning ₦1,500 (~$3 USD) daily. With no credit history and no bank account, she pays ₦200/kg for tomatoes when wholesale is ₦148, a 35% markup. After 45 days on STREETMARKET AI, her credit score reached 0.75, her income increased to ₦3,500 daily (**133% increase**), and she qualified for a ₦250,000 (~$500) microloan.
@@ -427,4 +429,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **STREETMARKET AI: Empowering 200 million vendors, one agent at a time.** 🌍🏆
 
 **Built with ❤️ for the Elastic Agent Builder Hackathon 2026**
+
 
